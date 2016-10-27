@@ -20,6 +20,7 @@
     <script>
         $("#btnkonum").click(function () {
             navigator.geolocation.getCurrentPosition(koordinat);
+
         });
         function koordinat(position) {
             var enlem = position.coords.latitude;
